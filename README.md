@@ -48,7 +48,7 @@ For ordinary capability, we also compared the models on the **MCI benchmark**, w
 
 ![Injected-prompt outcomes and normal-query benchmark](assets/evaluation.svg)
 
-*Results are the team's reported evaluation of the provided test set. The outcome counts for our agent include one item listed as â€œOtherâ€ to preserve the stated total of 200.*
+*Results are based on the team's evaluation of the provided test set. The outcome counts for our agent include one item categorized as "Other" to maintain the stated total of 200.*
 
 ## Project conditions and implementation
 
@@ -61,9 +61,9 @@ For ordinary capability, we also compared the models on the **MCI benchmark**, w
 
 ## Files
 
-- [`documentation.md`](documentation.md) â€” project conditions, design rationale, workflow, and experiment results.
-- [`documentation.pdf`](documentation.pdf) â€” the same documentation in a readable PDF format.
-- [`agent_pipeline.ipynb`](agent_pipeline.ipynb) â€” a cleaned version of the development notebook.
+- [`documentation.md`](documentation.md) - project conditions, design rationale, workflow, and experiment results.
+- [`documentation.pdf`](documentation.pdf) - the same documentation in a readable PDF format.
+- [`agent_pipeline.ipynb`](agent_pipeline.ipynb) - a cleaned version of the development notebook.
 
 The notebook uses authorized MCI/Tavily access credentials supplied through environment variables or notebook secrets; do not put credentials in the repository.
 
